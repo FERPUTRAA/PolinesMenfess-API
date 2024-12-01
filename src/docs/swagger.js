@@ -11,7 +11,7 @@ const swaggerDefinition = {
   servers: [
     {
       url: process.env.NODE_ENV === 'production' 
-        ? 'https://solifess.vercel.app' 
+        ? 'https://unand.vercel.app' 
         : 'http://localhost:3000',
     },
   ],
