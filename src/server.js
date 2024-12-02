@@ -29,3 +29,9 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+
+
+import { createClient } from '@supabase/supabase-js'
+const supabaseUrl = 'https://ingrabnokygjlbmphwub.supabase.co'
+const supabaseKey = process.env.SUPABASE_KEY
+const supabase = createClient(supabaseUrl, supabaseKey)
