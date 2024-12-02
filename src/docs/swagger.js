@@ -12,7 +12,7 @@ const swaggerDefinition = {
     {
       url: process.env.NODE_ENV === 'production' 
         ? 'https://unand.vercel.app' 
-        : 'http://localhost:3000',
+        : 'http://localhost:5000',
     },
   ],
   components: {
