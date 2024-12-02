@@ -32,5 +32,3 @@ app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`)
 
 
 
-const supabaseUrl = 'https://ingrabnokygjlbmphwub.supabase.co'
-const supabaseKey = process.env.SUPABASE_KEY
