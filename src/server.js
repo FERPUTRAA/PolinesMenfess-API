@@ -28,4 +28,4 @@ app.get('/swagger.json', (req, res) => {
 app.use(express.static(path.join(__dirname, '../public')));
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`and running on Server = https://unand.vercel.app = Server running on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
